@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  color: red;
+}
+
+body{
+  background: url(backgroundGalaxy.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+#mainContainer, #formContainer, #computerContainer, #resultContainer{
+  display: flex;
+  justify-content: center;
+}
+#overallContainer{
+  margin-top: 18%;
+  margin-right: 8%;
+}
